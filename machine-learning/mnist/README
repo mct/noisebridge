@@ -1,0 +1,19 @@
+# vim:set ts=4 sw=4 ai et filetype= tw=77:
+
+Files in this directory:
+
+*ubyte
+
+    Files downloaded from the MNIST database of handwritten digits, at
+    <http://yann.lecun.com/exdb/mnist/>.  The format of these files is
+    described on that page.
+
+mnist-converter.pl
+
+    Perl script for reading, and converting the MNIST data to other formats.
+
+create-collage.sh
+
+    Shell script that uses mnist-converter.pl, ppmtogif(1), and montage(1) to
+    build a collage of images in the MNIST 10k data set.  For example output,
+    see <http://mct.github.com/noisebridge/machine-learning/mnist/>.
