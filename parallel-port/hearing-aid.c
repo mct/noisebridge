@@ -51,7 +51,7 @@ void buzz()
 	else
 		return;
 
-	strftime(buf, 1024, "%Y-%m-%d %l:%M:%S", localtime(&now));
+	strftime(buf, 1024, "%Y-%m-%d %l:%M:%S%P", localtime(&now));
 	printf("%s Buzz!\n", buf);
 }
 
